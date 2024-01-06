@@ -14,7 +14,7 @@ classifier=LogisticRegression()
 classifier.fit(x_train,y_train)
 
 st.title('crop Recommendation')
-n=st.number_input('Entern Nitrogen:')
+n=st.number_input('Enter Nitrogen:')
 p=st.number_input('Enter Phosphorous:')
 k=st.number_input('Enter Potassium:')
 t=st.number_input('Enter Temperature:')
